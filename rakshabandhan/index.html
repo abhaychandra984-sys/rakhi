@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Raksha Bandhan, Beta!</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:wght@400;500;600&display=swap');
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: #4e1730;
+      font-family: Poppins, sans-serif;
+      background: #fff4eb;
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: auto;
+      padding: 42px 20px 56px;
+    }
+
+    header {
+      text-align: center;
+      padding: 24px 12px 30px;
+    }
+
+    .rakhi {
+      font-size: 48px;
+    }
+
+    h1 {
+      font-family: "Baloo 2", cursive;
+      font-size: clamp(2.2rem, 6vw, 4.4rem);
+      line-height: 1;
+      margin: 10px 0;
+      color: #7b1838;
+    }
+
+    .subtitle {
+      font-size: 1.05rem;
+      margin: 0 auto;
+      max-width: 640px;
+      color: #7b4d5d;
+    }
+
+    .note {
+      background: white;
+      border: 1px solid #f0c8ae;
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 12px 30px rgba(117, 44, 63, 0.1);
+      text-align: center;
+      margin: 0 auto 36px;
+      max-width: 840px;
+    }
+
+    .note p {
+      font-family: "Baloo 2", cursive;
+      font-size: 1.1rem;
+      line-height: 1.9;
+      margin: 0;
+    }
+
+    .highlight {
+      color: #bd5b21;
+      font-weight: bold;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+
+    .photo {
+      overflow: hidden;
+      position: relative;
+      border: 7px solid white;
+      border-radius: 20px;
+      box-shadow: 0 10px 24px rgba(90, 33, 45, 0.18);
+      background: #f4d6d1;
+    }
+
+    .photo img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    .horizontal {
+      aspect-ratio: 16 / 10;
+    }
+
+    .vertical {
+      aspect-ratio: 4 / 5;
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 20px 14px 12px;
+      color: white;
+      font-family: "Baloo 2", cursive;
+      font-size: 1.12rem;
+      font-weight: bold;
+      text-align: center;
+      background: linear-gradient(transparent, rgba(56, 7, 24, 0.8));
+    }
+
+    footer {
+      text-align: center;
+      font-family: "Baloo 2", cursive;
+      font-size: 1.35rem;
+      font-weight: bold;
+      margin-top: 40px;
+      color: #7b1838;
+    }
+
+    @media (max-width: 600px) {
+      .page {
+        padding: 25px 14px 40px;
+      }
+
+      .gallery {
+        gap: 14px;
+      }
+
+      .photo {
+        border-width: 4px;
+      }
+
+      .note {
+        padding: 21px 17px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+    <header>
+      <span class="rakhi">🪢</span>
+      <h1>Happy Raksha Bandhan, Beta! 💖</h1>
+      <p class="subtitle">
+        Meri pyari behen ke naam — hamari kuch sabse khoobsurat yaadein.
+      </p>
+    </header>
+
+    <section class="note">
+      <p>
+        Dear Choti, tum log sirf meri behen nahi ho, meri
+        <span class="highlight">best friend</span>, meri sabse badi
+        cheerleader aur ghar ki sabse pyari smile ho. Har nok-jhok, har masti
+        aur har yaad tum logo ke saath aur special ban jaati hai. Bas hamesha aise
+        hi khush rehna, sapne poore karna aur apni cute si smile kabhi mat
+        khona. Or tu janti hai me sabse jayda pyar tere se hi karta hu 
+        bas tu chidh jati hai isliye gussa aa jata hai choti-choti baaton
+        par.  <span class="highlight">Main hamesha tumhare saath hoon.</span>
+        <br />
+        Happy Raksha Bandhan ! ✨
+      </p>
+    </section>
+
+    <section class="gallery">
+      <figure class="photo horizontal">
+        <img src="photo-1.jpg" alt="Hum dono ki pehli yaad" />
+        <figcaption class="caption">Hamari yaadein ✨</figcaption>
+      </figure>
+
+      <figure class="photo horizontal">
+        <img src="photo-2.jpg" alt="Hum dono ki doosri yaad" />
+        <figcaption class="caption">Masti forever 💛</figcaption>
+      </figure>
+
+      <figure class="photo vertical">
+        <img src="photo-3.jpg" alt="Meri pyari choti behen" />
+        <figcaption class="caption">My sunshine ☀️</figcaption>
+      </figure>
+
+      <figure class="photo vertical">
+        <img src="photo-4.jpg" alt="Hum dono ki pyari photo" />
+        <figcaption class="caption">Siblings forever 💖</figcaption>
+      </figure>
+    </section>
+
+    <footer>Lots of love, Beta ❤️</footer>
+  </main>
+</body>
+</html>
